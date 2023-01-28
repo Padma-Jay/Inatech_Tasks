@@ -1,0 +1,44 @@
+﻿body{
+    background-color : cornsilk;
+}
+h1 {
+    font-family: Caveat;
+    color: indianred;
+    font-size : 43px;
+}
+
+h2 {
+    font-family: 'Leelawadee UI';
+    color : indianred;
+    
+}
+
+#t-data{
+    font-family : Bahnschrift;
+    color :cornflowerblue;
+}
+#li-data {
+    font-size: 20px;
+    font-family: Gadugi;
+}
+
+/*.split {
+    height: 100%;
+    width: 50%;*/
+    /*position: fixed;*/
+    /*z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;*/
+/*}*/
+.para {
+    font-family: Gadugi;
+    font-size:19px;
+}
+
+footer{
+    font-display: auto;
+    font-style:initial;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align : center;
+}
