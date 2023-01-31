@@ -1,0 +1,114 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Application Form</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Exo+2:ital@1&family=Fira+Sans:ital,wght@1,500&family=Heebo:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!--CSS Style Sheet-->
+    <link href="styles.css" rel="stylesheet" />
+
+
+
+</head>
+<body >
+
+    <h2>Fill Out All The Details</h2>
+    <h3>Here's a <a href="USER-GUIDANCE.pdf">user guidance</a> to fill out the form</h3>
+    <hr style="width:50%;text-align:left;margin-left:0">
+    <form>
+
+    <div class="job">
+        <h3>Job</h3>
+        <label>
+            Application for *
+            <select name="Application for" required>
+                <option>Developer</option>
+                <option>Designer</option>
+                <option>Tester</option>
+            </select>
+        </label>
+        <hr style="width:50%;text-align:left;margin-left:0">
+
+        <h3>Personal Data</h3>
+
+        <div>
+            <label>
+                First name : *
+                <input type="text" name="First name" required>
+            </label>
+            <label width="30%">
+                Second name : *
+                <input type="text" name="Family name" required>
+            </label>
+            <p>h</p>
+        </div>
+        <div>
+            <label>
+                Citizenship :
+                <input type="text" name="Citizenship">
+            </label>
+            <label>
+                Date of birth :
+                <input type="date" name="Date of birth">
+            </label>
+
+        </div>
+        <p>h</p>
+
+        <div>
+            <label>
+                Address :
+                <input type="text" name="Address">
+            </label>
+            <label>
+                ZIP Code  :
+                <input type="text" name="ZIP">
+            </label>
+            <label>
+                City :
+                <input type="text" name="City">
+            </label>
+            <p>h</p>
+
+        </div>
+        <div>
+            <label>
+                Phone : *
+                <input type="tel" name="Phone" required>
+            </label>
+            <label>
+                Email address : *
+                <input type="email" name="Email" required>
+            </label>
+        </div>
+        <hr style="width:50%;text-align:left;margin-left:0">
+
+        <h3>Application documents</h3>
+        <div>
+            <label>
+                Application letter :
+                <input type="file" name="Application letter" accept=".doc,.docx,.pdf">
+            </label>
+            <label>
+                Curriculum vitae :
+                <input type="file" name="Curriculum vitae" accept=".doc,.docx,.pdf">
+            </label>
+        </div>
+        <h5>Possible file types: DOC, PDF. Maximum file size: 10 MB.</h5>
+
+        <div class="btns">
+            <input type="text" name="_gotcha" value="" style="display:none;">
+            <input type="submit" value="Submit application">
+        </div>
+
+    </div>
+    </form>
+
+
+
+
+
+</body>
+</html>

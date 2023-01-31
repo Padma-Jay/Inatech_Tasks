@@ -1,0 +1,18 @@
+﻿
+body{
+    background-color: lavender;
+}
+h2{
+    font-family : 'Fira Sans' ;
+}
+h3{
+    font-family : 'Ubuntu';
+}
+.job{
+    font-family : 'Ubuntu';
+    font-size :larger;
+
+}
+p{
+    color: lavender;
+}
