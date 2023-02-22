@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table BS</title>
+    <script src="../Scripts/jquery-3.4.1.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .Format {
+            background-color: lavender;
+        }
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Normal Table</h1>
+        <table  class="table">
+            <tr id="tab">
+                <td>Sno</td>
+                <td>Politicians</td>
+                <td>Party</td>
+            </tr>
+            <tr id="tab">
+                <td>1.</td>
+                <td>Rahul</td>
+                <td>INC</td>
+            </tr>
+            <tr id="tab">
+                <td>2.</td>
+                <td>Sarath Pawar</td>
+                <td>NCP</td>
+            </tr>
+            <tr id="tab">
+                <td>3.</td>
+                <td>Stalin</td>
+                <td>DMK</td>
+            </tr>
+        </table>
+        <hr />
+    </div>
+    <div class="container">
+        <h1>Striped Table</h1>
+        <table  class=" table table-striped">
+            <tr>
+                <td>Sno</td>
+                <td>Politicians</td>
+                <td>Party</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Sarath Kumar</td>
+                <td>SMK</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Aravindh</td>
+                <td>AAP</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>EPD</td>
+                <td>ADMK</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="container">
+        <h1>Another Table</h1>
+        <table class=" table table-bordered">
+            <tr>
+                <td>Sno</td>
+                <td>Politicians</td>
+                <td>Party</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Sarath Kumar</td>
+                <td>SMK</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Aravindh</td>
+                <td>AAP</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>EPS</td>
+                <td>ADMK</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="container">
+        <h1>Hover Table</h1>
+        <table class=" table table-hover">
+            <tr id="tab">
+                <td>Sno</td>
+                <td>Politicians</td>
+                <td>Party</td>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Sarath Kumar</td>
+                <td>SMK</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Aravindh</td>
+                <td>AAP</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>EPS</td>
+                <td>ADMK</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="container">
+        <h1>Condensed Table</h1>
+        <table class=" table table-condensed">
+            <tr class="active">
+                <td>Sno</td>
+                <td>Politicians</td>
+                <td>Party</td>
+            </tr>
+            <tr class="danger">
+                <td>1.</td>
+                <td>Sarath Kumar</td>
+                <td>SMK</td>
+            </tr>
+            <tr class="info">
+                <td>2.</td>
+                <td>Aravindh</td>
+                <td>AAP</td>
+            </tr>
+            <tr class="mark">
+                <td>3.</td>
+                <td>EPD</td>
+                <td>ADMK</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script>
+        $('tr').hover(function () {
+            $(this).addClass('Format');
+        },
+            function () {
+                $(this).removeClass('Format');
+            }
+        );
+    </script>
+
+</body>
+</html>
